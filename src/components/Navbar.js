@@ -38,10 +38,6 @@ export class Navbar extends Component {
                                     <Link className="nav-link" aria-current="page" to="/technology">Technology</Link>
                                 </li>
                             </ul>
-                            <div className={`form-check form-switch mx-0 my-0 d-flex flex-row-reverse text-light`}>
-                                <input className="form-check-input mx-1" type="checkbox" id="flexSwitchCheckDefault"/>
-                                <label className="form-check-label mx-1" htmlFor="flexSwitchCheckDefault">Enable Dark Mode</label>
-                            </div>
                         </div>
                     </div>
                 </nav>
