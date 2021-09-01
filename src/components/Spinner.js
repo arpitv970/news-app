@@ -4,8 +4,8 @@ export class Spinner extends Component {
     render() {
         return (
             <div className="text-center">
-                <div class="spinner-grow text-info" role="status">
-                    <span class="visually-hidden">Loading...</span>
+                <div class="spinner-grow text-primary" role="status">
+                    <span class="visually-hidden my-3">Loading...</span>
                 </div>
             </div>
         )

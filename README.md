@@ -43,4 +43,8 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 ```bash
 npm install react-router-dom
 ```
+[React Infinite Scroll Component](https://www.npmjs.com/package/react-infinite-scroll-component)
+```bash
+npm i react-infinite-scroll-component
+```
 ## App Visualisation
