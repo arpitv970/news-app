@@ -52,3 +52,4 @@ npm i react-infinite-scroll-component
 npm i react-top-loading-bar
 ```
 ## App Visualisation
+https://user-images.githubusercontent.com/73063553/131818821-f68f98ae-c49d-4540-8067-9617373292b7.mp4
