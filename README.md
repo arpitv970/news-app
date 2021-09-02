@@ -47,4 +47,8 @@ npm install react-router-dom
 ```bash
 npm i react-infinite-scroll-component
 ```
+[React Top Loading Bar](https://www.npmjs.com/package/react-top-loading-bar)
+```bash
+npm i react-top-loading-bar
+```
 ## App Visualisation
