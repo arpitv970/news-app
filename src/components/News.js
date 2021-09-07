@@ -52,7 +52,7 @@ const News = (props) => {
 
     };
         return (
-            <>
+            <div className="container" style={{ color: props.mode === "light" ? "#101112" : "white" }} >
                 <h1 className="text-center" style={{marginTop: '10vh', marginBottom: '5vh'}}>Times of India: Top {capitalize(props.category)} Headlines</h1>                
                 {loading && <Spinner/>}
                 <InfiniteScroll dataLength={articles.length} next={fetchMoreData} hasMore={articles.length !== totalResults} loader={<Spinner/>}>
@@ -67,7 +67,7 @@ const News = (props) => {
                 </div>
                 </div>
                 </InfiniteScroll>
-            </>
+            </div>
         )
 }
 
