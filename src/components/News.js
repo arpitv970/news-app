@@ -15,8 +15,9 @@ const News = (props) => {
         return s.charAt(0).toUpperCase() + s.slice(1)
       }      
 
+    // updating articles, progress on each fetch
     const updateNews = async () => {
-        props.setProgress(25);
+        // props.setProgress(25);
         const url = `https://newsapi.org/v2/top-headlines?country=${props.country}&category=${props.category}&apiKey=${props.apiKey}&page=${page}&pageSize=${props.pageSize}`;
 
         setLoading(true)
@@ -27,7 +28,7 @@ const News = (props) => {
 
         let parsedData = await data.json()
 
-        props.setProgress(75);
+        // props.setProgress(75);
 
         setArticles(parsedData.articles)
         setTotalResults(parsedData.totalResults)

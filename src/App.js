@@ -11,7 +11,8 @@ const App = () => {
   const apiKey=process.env.REACT_APP_NEWS_API
   const [progress, setProgress] = useState(0)
 
-  const [mode, setMode] = useState('light');  //  mode check
+  //  mode & alert state check
+  const [mode, setMode] = useState('light'); 
   const [alert, setAlert] = useState(null);
 
   const showAlert = (message)=>{
@@ -23,6 +24,7 @@ const App = () => {
     }, 1580);
   }
 
+  // switching in between themes
   const toggleMode = ()=>{
     if (mode === 'light'){
       setMode('dark');
@@ -39,7 +41,8 @@ const App = () => {
       <Router>
         <div>
           <Navbar mode={mode} toggleMode={toggleMode}/>
-          <LoadingBar color='rgb(13,110,253)' progress={progress} />
+          {/* progress bar that seems to load content */}
+          <LoadingBar color='rgb(13,110,253)' progress={progress} height={4} />
           <Switch>
             <Route exact path="/"><News setProgress={setProgress} apiKey={apiKey} key="general" pageSize={pageSize} country="in" category="general" mode={mode} /></Route>
             <Route exact path="/business"><News setProgress={setProgress} apiKey={apiKey} key="business" pageSize={pageSize} country="in" category="business" mode={mode} /></Route>
