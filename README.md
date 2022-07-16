@@ -1,7 +1,7 @@
 # NEWS Web App 📰
 
 ## App Visualisation
-https://user-images.githubusercontent.com/73063553/131818821-f68f98ae-c49d-4540-8067-9617373292b7.mp4
+https://user-images.githubusercontent.com/73063553/179358177-c1c2295b-6841-4b1c-98bf-a49520dc0324.mp4
 
 # Project Description 🗒️
 - This is a web app created using [Reactjs](https://reactjs.org/) as frontend framework
