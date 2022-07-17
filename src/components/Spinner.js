@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Spinner = () => {
+export default function Spinner() {
         return (
             <div className="text-center">
                 <div className="spinner-grow text-primary" role="status">
@@ -9,5 +9,3 @@ const Spinner = () => {
             </div>
         )
 }
-
-export default Spinner
