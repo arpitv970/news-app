@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from "react-router-dom";
 
-const Navbar = (props) => {
+export default function Navbar(props) {
         return (
             <div>
                 <nav className={`navbar fixed-top navbar-expand-lg navbar-${props.mode} bg-${props.mode}`}>
@@ -47,5 +47,3 @@ const Navbar = (props) => {
             </div>
         )
 }
-
-export default Navbar
