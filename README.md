@@ -3,6 +3,8 @@
 ## App Visualisation
 https://user-images.githubusercontent.com/73063553/179358177-c1c2295b-6841-4b1c-98bf-a49520dc0324.mp4
 
+>> NOTE: NEWS API is free to use for developers at local end, but to deploy it one need to take its subscription
+
 # Project Description 🗒️
 - This is a web app created using [Reactjs](https://reactjs.org/) as frontend framework
 - For styling [Bootstrap](https://getbootstrap.com/) is used here

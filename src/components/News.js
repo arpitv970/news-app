@@ -72,6 +72,7 @@ const News = (props) => {
         )
 }
 
+// Setting some defaults for NEWS API
 News.defaultProps = {
     country: 'in',
     pageSize: 12,
